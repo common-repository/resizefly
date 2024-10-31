@@ -1,0 +1,359 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the resizefly package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: resizefly 3.0.0\n"
+"Report-Msgid-Bugs-To: hi@resizefly.com\n"
+"POT-Creation-Date: 2022-11-28 14:45+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Addon/EddAddonUpdater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: src/Addon/EddAddonUpdater.php:223
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: src/Addon/EddAddonUpdater.php:346
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: src/Addon/EddAddonUpdater.php:346
+msgid "Error"
+msgstr ""
+
+#: src/Admin/Admin.php:43
+msgid "Resizefly Settings"
+msgstr ""
+
+#: src/Admin/Cache/CacheSection.php:29
+msgid "Cache Settings"
+msgstr ""
+
+#: src/Admin/Cache/PathField.php:40
+msgid "Path for resized images"
+msgstr ""
+
+#: src/Admin/Cache/PathField.php:89
+msgid ""
+"This directory already exists. Please remove the directory manually and try "
+"setting it again."
+msgstr ""
+
+#: src/Admin/Cache/PathField.php:105
+#, php-format
+msgid ""
+"The provided path (%s) is not writeable! Please fix the permissions in your "
+"uploads directory."
+msgstr ""
+
+#: src/Admin/Cache/PurgeCacheField.php:22 src/Admin/Cache/PurgeSingle.php:48
+#: src/Admin/Cache/PurgeSingle.php:67
+msgid "Purge Cache"
+msgstr ""
+
+#: src/Admin/Cache/PurgeCacheField.php:50
+#, php-format
+msgid "%s file(s) have been removed and %s of disk space has been freed."
+msgstr ""
+
+#: src/Admin/Cache/PurgeCacheField.php:54 src/Admin/Cache/PurgeSingle.php:104
+msgid "No files were removed because the cache was already empty."
+msgstr ""
+
+#: src/Admin/Cache/PurgeCacheField.php:56
+msgctxt "as in \"all resized images\""
+msgid "all"
+msgstr ""
+
+#: src/Admin/Cache/PurgeCacheField.php:57
+msgctxt "as in \"most resized images\""
+msgid "most"
+msgstr ""
+
+#: src/Admin/Cache/PurgeSingle.php:61
+msgid "Resizefly Cache"
+msgstr ""
+
+#: src/Admin/Cache/PurgeSingle.php:69
+msgid "Delete all generated sizes for this image."
+msgstr ""
+
+#: src/Admin/Cache/PurgeSingle.php:101
+#, php-format
+msgid "%s file(s) have been removed."
+msgstr ""
+
+#: src/Admin/Cache/RemoveResizedField.php:21
+msgid "Remove All Resized Images"
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:38
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:39
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:40
+msgid "Invalid license."
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:41
+#: src/Admin/Licenses/LicenseField.php:42
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:43
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:44
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:45
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:46
+msgid "Unknown addon"
+msgstr ""
+
+#: src/Admin/Licenses/LicenseField.php:128
+msgid "valid"
+msgstr ""
+
+#: src/Admin/Licenses/LicensesSection.php:24
+msgid "Addon Licenses"
+msgstr ""
+
+#: src/Admin/Licenses/LicensesSection.php:31
+msgid "Licenses"
+msgstr ""
+
+#: src/Admin/OptionsPage.php:84
+msgid "ResizeFly"
+msgstr ""
+
+#: src/Admin/Sizes/RegisteredSizesSection.php:27
+msgid "Registered Sizes Settings"
+msgstr ""
+
+#: src/Admin/Sizes/RestrictSizesField.php:32
+msgid "Restrict Image Sizes"
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:68
+msgid "Image Sizes"
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:158
+msgid ""
+"This image size is not yet saved. If you want to allow images in this size "
+"save the form."
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:159
+msgid "This image size has been updated since your last save."
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:160
+msgid ""
+"This image size is no longer registered. If you still want to keep it you "
+"will have to add it manually."
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:247
+#, php-format
+msgid ""
+"The registered and saved image sizes for ResizeFly are out of sync. <a "
+"href=\"%s\"><button type=\"button\">Please review them here.</button></a>"
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:332
+msgctxt "admin custom image size."
+msgid "Please choose a unique name."
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:333
+msgctxt "admin custom image size."
+msgid "Please add either width or height."
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:334
+msgctxt "admin custom image size"
+msgid "When specifying \"crop\", please add both width and height."
+msgstr ""
+
+#: src/Admin/Sizes/SizesField.php:336 views/field/resizefly-sizes.php:93
+msgctxt "button text"
+msgid "Add Size"
+msgstr ""
+
+#: src/Upload/DuplicateOriginal.php:221
+#, php-format
+msgid ""
+"The directory %s is not writeable by Resizefly. Please correct the "
+"permissions."
+msgstr ""
+
+#: version-check.php:82
+#, php-format
+msgid ""
+"Resizefly requires at least PHP %s to function properly. Please upgrade PHP "
+"to use Resizefly."
+msgstr ""
+
+#: version-check.php:88
+#, php-format
+msgid ""
+"Resizefly requires at least WordPress %s to function properly. Please "
+"upgrade WordPress to use Resizefly."
+msgstr ""
+
+#: version-check.php:93
+msgid ""
+"Resizefly could not find an Image Editor. Please make sure you have either "
+"GD or Imagick installed."
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:10
+msgid "Add Image Size"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:13
+#: views/field/resizefly-sizes.php:21 views/field/resizefly-sizes.php:32
+msgid "Width"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:26
+#: views/field/resizefly-sizes.php:22 views/field/resizefly-sizes.php:33
+msgid "Height"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:39
+#: views/field/resizefly-sizes.php:23 views/field/resizefly-sizes.php:34
+msgid "Crop"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:43
+msgid "Left"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:44
+#: views/field/partials/sizes/add-new-form.php:49
+msgid "Center"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:45
+msgid "Right"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:48
+msgid "Top"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:50
+msgid "Bottom"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:56
+#: views/field/resizefly-sizes.php:24 views/field/resizefly-sizes.php:35
+msgid "Name"
+msgstr ""
+
+#: views/field/partials/sizes/add-new-form.php:68
+msgid "Add image size"
+msgstr ""
+
+#: views/field/resizefly-addon-license.php:15
+msgid "Enter your License Key"
+msgstr ""
+
+#: views/field/resizefly-addon-license.php:19
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+#. /07/16
+#. * Time: 14:39.
+#.
+#: views/field/resizefly-purge-cache.php:12
+#, php-format
+msgid "Remove %s resized images in <code>%s</code>."
+msgstr ""
+
+#: views/field/resizefly-purge-cache.php:14
+msgid "(Note: This will not remove any images in your default upload folder.)"
+msgstr ""
+
+#: views/field/resizefly-purge-cache.php:16
+msgid "To configure more options, please add a resize path above."
+msgstr ""
+
+#: views/field/resizefly-purge-cache.php:22
+msgid "Smart purge: Retains often used sizes such as thumbnails"
+msgstr ""
+
+#: views/field/resizefly-remove-resized.php:12
+msgid ""
+"Remove all resized images in uploads (regardless whether created by "
+"Resizefly or not)."
+msgstr ""
+
+#: views/field/resizefly-resized-path.php:14
+#, php-format
+msgid "Directory %s <span class=\"resizefly-ok\">is writable</span>"
+msgstr ""
+
+#: views/field/resizefly-resized-path.php:16
+#, php-format
+msgid "Directory %s <span class=\"resizefly-error\">is not writable</span>"
+msgstr ""
+
+#: views/field/resizefly-sizes.php:19 views/field/resizefly-sizes.php:30
+msgid "Active"
+msgstr ""
+
+#: views/field/resizefly-sizes.php:20 views/field/resizefly-sizes.php:31
+msgid "Action"
+msgstr ""
+
+#: views/field/resizefly-sizes.php:81
+msgctxt "button text"
+msgid "Delete Size"
+msgstr ""
+
+#: views/page/resizefly.php:30
+msgid "Update Options"
+msgstr ""
+
+#. /07/16
+#. * Time: 12:57.
+#.
+#: views/section/resizefly-cache.php:9
+msgid ""
+"Add a path suffix to store the resized images. <br><strong>Note:</strong> "
+"Only add one path fragment, i.e. <code>resizefly</code> without directory "
+"separators (<code>/</code>), otherwise the last fragment will be used."
+msgstr ""
